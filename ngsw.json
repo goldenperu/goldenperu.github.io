@@ -1,0 +1,95 @@
+{
+  "configVersion": 1,
+  "timestamp": 1673832022603,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/993.dde33d5ca3f1e9fa.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.4ca08974775012b8.js",
+        "/manifest.webmanifest",
+        "/polyfills.e1e0718d114e5c55.js",
+        "/runtime.2f2f283a110faa1b.js",
+        "/scripts.2fce1fab3d867815.js",
+        "/styles.a12040a8f7415bba.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/logo-nilmar.png",
+        "/assets/logo.png",
+        "/assets/logo2.png",
+        "/bootstrap-icons.35e09da2aecdd969.woff2",
+        "/bootstrap-icons.cb4c7c05f3292543.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/993.dde33d5ca3f1e9fa.js": "749eca7011aa1dd3e5acf2e431341bce974cebc6",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/logo-nilmar.png": "7602af131c57ece67de5a24d2b4deb17ad6dfffc",
+    "/assets/logo.png": "316125502dc960e98207563ee5c65638fe338647",
+    "/assets/logo2.png": "322812160194facab155a1fde152cd17ff17e625",
+    "/bootstrap-icons.35e09da2aecdd969.woff2": "17dad0776899ad1beadabd061c34e2a22b2cde74",
+    "/bootstrap-icons.cb4c7c05f3292543.woff": "75919c717ce5c5bc716bc51705c0cd0b60f4bffc",
+    "/favicon.ico": "23083b298126e19e57f6732770571e8da33ec054",
+    "/index.html": "59afbd090842958483233734e1f754812c83b337",
+    "/main.4ca08974775012b8.js": "c6ca0b24ee77279d800eb209a53b83cadf4418f7",
+    "/manifest.webmanifest": "756229715e150aad468c0b74755b63cdcbd16c2b",
+    "/polyfills.e1e0718d114e5c55.js": "b76629ce734450e20bba8199dfba2251b221ccee",
+    "/runtime.2f2f283a110faa1b.js": "d7106e277871239c665531d68f4f7f97c521d2df",
+    "/scripts.2fce1fab3d867815.js": "f3c87f33bd72c2dd175ef9a3222b718330fd86cf",
+    "/styles.a12040a8f7415bba.css": "5b675d2b48c3cff0ec2800b66f353738530f155f"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
